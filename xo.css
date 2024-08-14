@@ -1,0 +1,37 @@
+*{margin: 0;padding: 0;}
+video{position: absolute;z-index: -1;width: 100%;}
+
+.c{display: flex;}
+img{transform: translate(50%,55%);box-shadow:3px -18px 10px 7px #1e2d3b;width: 50%; box-sizing :2px;transition-duration:1s ; filter: grayscale(.3);}
+img:hover{box-shadow:8px 5px 20px 19px #4986bf;transform: scale3d(1,1,1);transform:rotatex(15deg); cursor: cell; filter: grayscale(0);}
+body{perspective: 600px;}
+td:hover{ background-color: #fafcfe64;color: #000; text-transform: uppercase;}
+
+form{display: flex;flex-direction: column; width: 100%;justify-content: center;align-items: center;}
+.p,.te,.n{border-radius: 20px;background-color: rgba(0, 0, 0, 0.089); color: #ffffff;border: #000 2px solid;backdrop-filter: blur(15px); }
+.in{border: #fafcfe 4px solid; padding: 50px; color: #ffffff;}
+.in p{border: inherit;}
+label{color: wheat;}
+label:checked{color: red;}
+.d{backdrop-filter: blur(2px) ;padding: 10px;background-color: #1e2d3b;}
+thead{background-color: #1e2d3b; text-align: center; text-transform: uppercase;}
+table{color: #fff9f9; padding: 15px; width: 690px;height: 300px;}
+tbody{backdrop-filter: blur(20px); transition: 1s .1s linear;}
+td{ border: 2px rgba(255, 255, 255, 0.118) solid; text-align: center;}
+tbody:hover{backdrop-filter: blur(0px);}
+a:hover{color: rgb(0, 0, 0); border-bottom:2px rgba(255, 255, 255, 0) solid ; background-color: #ad1cb090; border-radius: 20px;}
+p{border: var(--yborder)}
+a{color: #fafcfe;text-decoration: none; font-size: 30px; margin: 20px; transition: 1s ease-in-out;padding: 10px; width: 80%; height: 70%; background-color: #1e2d3b;}
+.f{z-index: 400;width: 80%; height: 80%;}
+ul {display:inline-flex;justify-content:space-between; align-items:; justify-content: space-between;  flex-basis: 500px;height: 300px;position:fixed;top: 0;}
+li{list-style: none; }
+
+.gr{display: grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); grid-template-rows:repeat(2, minmax(200px,auto)); gap:3px;align-content: center;}
+
+p{transition: 1s;}
+.n1{background-image: url(n1.jpg); background-position:center ;background-size:cover ;}
+.n2{background-image: url(n2.jpg); background-position:center ;background-size:cover ;}
+.a1{background-image: url(a1.jpg);background-position:center ;background-size:cover ;}
+.a2{background-image: url(a2.jpg); background-position:center ;background-size:cover ;}
+.g1{background-image: url(g1.jpg); background-position:center ;background-size:cover ;}
+.g2{background-image: url(g2.jpg);background-position:top ;background-size:cover ;}

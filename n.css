@@ -1,0 +1,20 @@
+body{background-image:linear-gradient(rgb(34, 81, 100),rgb(13, 25, 39)) ;height: 100vh; }
+.d{width: 80%; height: 90%; transform: translate(10%,5%);position: relative; overflow: hidden;display: flex; justify-content: center; align-items: center;border: 4px rgba(255, 255, 255, 0.455) solid ;box-shadow:0px 7px 15px 9px #335979; }
+video{position: absolute; z-index: -1;}
+form{background-color: rgba(255, 255, 255, 0.101);}
+input{display: block;}
+form{ height: 360px;
+    width: 340px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;display: flex;justify-content: center; align-items: center; flex-flow: column; gap: 20px;backdrop-filter: blur(2px);}
+    .l{width: 100%; }
+    .l input{outline: none; width: 100%; background-color: transparent;border: none;margin-top: 30px;border-bottom: 2px solid white; height: 30px; transform: translateY(-60px);}
+    s{background-image: linear-gradient(rgb(46, 9, 86),rgb(124, 13, 102)) ;color: white;}
+    ::placeholder{color: white; font-size: 12px;}
+    form p{font-size: 40px; letter-spacing: 4px;transform: translateY(-45px); color: white; text-transform: capitalize;}
+    form section{ color: aliceblue; text-transform: capitalize; transform: translateX(-100px);font-size: 20px;margin: 0;padding: 0;}
+    .s{width: 80%;background-color: #335979; height: 24px;color: white; border-radius: 20px;transform: translateY(-30px);}
+    i{font-size: 30px; color: aliceblue; }
+    .i{display: flex; justify-content: space-between; gap: 80px; justify-content: center; align-items: center; transform: translateY(-20px);}
+   
